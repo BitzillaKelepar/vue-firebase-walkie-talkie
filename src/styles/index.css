@@ -1,0 +1,7 @@
+/* import poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*  add the Tailwind directives to CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
