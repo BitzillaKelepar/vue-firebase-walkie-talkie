@@ -4,7 +4,9 @@
 </template>
 
 <script>
-/*import HelloWorld from './components/HelloWorld.vue'*/
+// debugging
+import {auth} from "./firebase";
+console.log(auth);
 
 export default {
   name: 'App',
