@@ -1,13 +1,14 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from "./router/index";
-/*import {firestorePlugin} from "vuefire";
-import {firebaseApp} from "./firebase";*/
+
+// import Tailwind CSS
 import './styles/index.css';
 
 // create and mount root instance
 const app = createApp(App);
-/*app.use(firestorePlugin);*/
+
+// use router
 app.use(router)
 app.mount('#app');
 
